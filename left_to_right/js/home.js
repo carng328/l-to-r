@@ -1,35 +1,3 @@
-
-// TIME
-// This function gets the current time and injects it into the DOM
-// $(function updateClock() {
-// // Gets the current time
-//           var now = new Date();
-
-//           // Get the hours, minutes and seconds from the current time
-//           var hours = now.getHours();
-//           var minutes = now.getMinutes();
-//           var seconds = now.getSeconds();
-//           var mid=' AM';
-//           if(hours==0){ //At 00 hours we need to show 12 am
-//           hours=12;
-//           }
-//           else if(hours>12)
-//           {
-//           hours=hours%12;
-//           mid=' PM';
-//           }
-//           if (minutes < 10) {
-//           minutes = "0" + minutes;
-//           }
-//           if (seconds < 10) {
-//           seconds = "0" + seconds;
-//           }
-           
-//           // Gets the element we want to inject the clock into
-//           var elem = document.getElementById('time');
-//           // Sets the elements inner HTML value to our clock data
-//           elem.innerHTML = hours + ':' + minutes + mid;
-// });
 $(function updateClock() {
 
 var today = new Date();
@@ -86,7 +54,7 @@ $(function getHuffPost() {
                      //Start with the 4th comment; since the first 3 comments are auto moderator
                     for (var i = 2; i < data.query.results.entry.length; i++) {
                     console.log(data.query.results.entry[i].content.content);
-                    $("#col3 #comment-box").append("<div id='comment'>" + data.query.results.entry[i].content.content + "</div>")
+                    $("#col1 #comment-box").append("<div id='comment'>" + data.query.results.entry[i].content.content + "</div>")
                     }           
  
           });   
@@ -137,7 +105,7 @@ $(function getFoxNews() {
                      //Start with the 4th comment; since the first 3 comments are auto moderator
                     for (var i = 2; i < data.query.results.entry.length; i++) {
                     console.log(data.query.results.entry[i].content.content);
-                    $("#col3 #comment-box").append("<div id='comment'>" + data.query.results.entry[i].content.content + "</div>")
+                    $("#col2 #comment-box").append("<div id='comment'>" + data.query.results.entry[i].content.content + "</div>")
                     }
              
           });   
@@ -236,7 +204,7 @@ $(function getBreitbart() {
                      //Start with the 4th comment; since the first 3 comments are auto moderator
                     for (var i = 2; i < data.query.results.entry.length; i++) {
                     console.log(data.query.results.entry[i].content.content);
-                    $("#col3 #comment-box").append("<div id='comment'>" + data.query.results.entry[i].content.content + "</div>")
+                    $("#col4 #comment-box").append("<div id='comment'>" + data.query.results.entry[i].content.content + "</div>")
                     }
              
           });   

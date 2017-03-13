@@ -1,0 +1,168 @@
+@font-face {
+	font-family: 'GT-America-Extended-Bold';
+    src: url(../fonts/GT-America-Extended-Bold.woff);
+}
+
+@font-face {
+	font-family: 'GT-America-Mono-Regular';
+    src: url(../fonts/GT-America-Mono-Regular.woff);
+}
+
+@font-face {
+	font-family: 'GT-America-Regular';
+    src: url(../fonts/GT-America-Regular.woff);
+}
+
+
+@font-face {
+	font-family: 'GT-America-Compressed-Regular';
+    src: url(../fonts/GT-America-Compressed-Regular.woff);
+}
+
+body {
+	margin:0;
+	padding:0;
+	background-color: rgb(245, 245, 245);
+	
+}
+
+h1{
+	font-family: 'GT-America-Extended-Bold';
+	font-weight: normal;
+	font-size: 16pt;
+	line-height: 20pt;
+	color: rgb(60,60,250);
+}
+
+h4{
+	font-family: 'GT-America-Mono-Regular';
+	font-weight: normal;
+	font-size: 10pt;
+	color: rgb(60,60,250);
+	padding-top:0;
+	top: 0;
+}
+
+h5{
+	font-family: 'GT-America-Mono-Regular';
+	font-weight: normal;
+	font-size: 10pt;
+	color: rgb(60,60,250);
+	bottom: 0;
+	position: absolute;
+}
+
+/* Start of Column CSS */
+#container4 {
+	height: 100%;
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden; 
+	/* column 4 background colour */
+}
+#container3 {
+	height: 100%;
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+	border-right: 6px solid rgb(250,30,30);/* column 3 background colour */
+}
+#container2 {
+	height: 100%;
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%; 
+	border-right: 6px solid rgb(250,30,30);/* column 2 background colour */
+}
+#container1 {
+	height: 100%;
+	float:left;
+	width:100%;
+	position:relative;
+	right:25%;
+	border-right: 6px solid rgb(250,30,30);
+    /* column 1 background colour */
+}
+#col1 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:77%;
+	height: 100%;
+}
+#col2 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:81%;
+	height: 100%;
+}
+#col3 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:85%;
+	height: 100%;
+}
+#col4 {
+	float:left;
+	width:21%;
+	position:relative;
+	left:89%;
+	height: 100%;
+
+}
+
+#comment-box{
+	font-size: 12pt;
+	height: 45%;
+	width: 100%;
+	margin-top: 90%;
+	overflow: scroll;
+	background-color: rgb(245,245,245);
+	-webkit-box-shadow: 6px 6px 8px -4px rgb(60,60,250);
+	border-style: solid;
+	border-color: rgb(60,60,250);
+	border-width: 1px;
+	position: absolute;
+
+}
+
+#comment{
+	color: red;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'GT-America-Regular';
+}
+
+a{
+	text-decoration: underline;
+	color: red;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'GT-America-Regular';
+}
+
+.bottom-bar{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 5%;
+	background-color: rgb(245, 245, 245);
+	border-top: 6px solid rgb(250,30,30);
+}
+
+#time{
+	color: red;
+	padding-top: 8px;
+	font-size: 12pt;
+	text-align: center;
+	font-family: 'GT-America-Regular';
+
+}
+
